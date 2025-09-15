@@ -1,0 +1,15 @@
+# python libraries required for the project
+# source .venv/bin/activate
+# uv add -r requirements.txt
+
+# API and web
+python-dotenv>=1.0.1
+fastapi==0.111.0
+uvicorn==0.29.0
+pydantic==2.7.3
+pydantic-settings==2.2.1
+httpx==0.27.0
+
+# Setup
+setuptools
+pytest==8.2.2
